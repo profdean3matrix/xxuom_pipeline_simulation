@@ -27,4 +27,4 @@ jobs:
 
     - name: Run Semantic Validation
       run: |
-        python semantic_model/validate_semantic_output.py
+        python gold_lakehouse/semantic_model/validate_semantic_output.py
