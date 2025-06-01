@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-file_path = "semantic_model/CRM_TASKS_COMPLAINTS_CLEANED.parquet"
+file_path = "gold_lakehouse/semantic_model/CRM_TASKS_COMPLAINTS_CLEANED.parquet"
 
 # Validate existence
 if not os.path.exists(file_path):
