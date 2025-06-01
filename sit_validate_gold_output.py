@@ -44,4 +44,4 @@ if len(df) == 0:
     raise ValueError("❌ No data found in the Gold output table.")
 
 print("✅ SIT Passed: Gold output is valid and contains expected structure/data.")
-input("\nPress Enter to close...")
+#input("\nPress Enter to close...")
